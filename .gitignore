@@ -13,6 +13,7 @@ node_modules
 .claude/
 .gemini/
 .junie/
+/GEMINI.md
 
 # Logs
 logs
