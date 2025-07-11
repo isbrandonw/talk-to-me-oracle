@@ -11,6 +11,9 @@ node_modules
 .idea/
 .cursor/
 .claude/
+.gemini/
+.junie/
+
 # Logs
 logs
 *.log

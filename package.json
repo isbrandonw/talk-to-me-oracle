@@ -14,7 +14,9 @@
     "lint:fix": "eslint . --fix",
     "prepare": "husky",
     "dev:registry": "REGISTRY_URL=http://localhost:5173/r tsx ./scripts/build-registry.mts",
-    "build:registry": "tsx ./scripts/build-registry.mts"
+    "build:registry": "tsx ./scripts/build-registry.mts",
+    "clean": "rm -rf .nuxt .output",
+    "refresh": "pnpm install --force"
   },
   "dependencies": {
     "@number-flow/vue": "^0.4.8",
@@ -50,6 +52,7 @@
   "devDependencies": {
     "@eslint/js": "^9.28.0",
     "@eslint/markdown": "^6.5.0",
+    "@iconify-json/prime": "^1.2.2",
     "@iconify-json/vscode-icons": "^1.2.22",
     "@inspira-ui/plugins": "0.0.1",
     "@nuxt/eslint": "^1.4.1",

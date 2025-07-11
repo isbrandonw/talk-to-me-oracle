@@ -102,6 +102,9 @@ importers:
       '@eslint/markdown':
         specifier: ^6.5.0
         version: 6.6.0
+      '@iconify-json/prime':
+        specifier: ^1.2.2
+        version: 1.2.2
       '@iconify-json/vscode-icons':
         specifier: ^1.2.22
         version: 1.2.23
@@ -605,6 +608,9 @@ packages:
 
   '@iconify-json/lucide@1.2.54':
     resolution: {integrity: sha512-sUHvGWE0WI+XVew//03Y1jw7AFRv57X1BFxrLBdjwt9xccr4Y2JartcWXM/Zeinxrr3ZgBt0n16WkeN/fx9QAQ==}
+
+  '@iconify-json/prime@1.2.2':
+    resolution: {integrity: sha512-W08l1i445VOmiOounOAzHHcpW3i3B+EkRJlkMSCIlAmZNnrdCE+JRUG4GhEA5WlIYu/rqIDmpAF+0YZLH4RNBg==}
 
   '@iconify-json/vscode-icons@1.2.23':
     resolution: {integrity: sha512-gFTcKecKra2/b5SbGDgHGI/l8CuikHyBPmqGlK+YCmS8AK72dtDQbUekdoACsju/3TYS37QvdPoOQwnyx2LdYg==}
@@ -7171,6 +7177,10 @@ snapshots:
   '@humanwhocodes/retry@0.4.3': {}
 
   '@iconify-json/lucide@1.2.54':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/prime@1.2.2':
     dependencies:
       '@iconify/types': 2.0.0
 

@@ -3,6 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   plugins: [{ src: "~/plugins/clarity.js", mode: "client" }],
 
+  devServer: { port: 3009 },
+
   modules: [
     "@nuxt/image",
     "nuxt-gtag",
